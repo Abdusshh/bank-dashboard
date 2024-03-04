@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+import plotly.express as px
 
 # Veri setini genişlet
 def create_data(n=200):
@@ -63,7 +64,6 @@ plt.xlabel('Müşteri Sayısı')
 plt.ylabel('Şehir')
 st.pyplot(plt)
 
-import plotly.express as px
 
 # Başlık
 st.title('Interaktif Müşteri Veri Dashboardu')
